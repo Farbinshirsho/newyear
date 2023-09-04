@@ -4,37 +4,51 @@ body{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    width: 1600px;
+    height: 3229px;
 }
 
 
 /* header related styles */
 header{
    /* background-color: aqua; */
-   width: 1600px;
-   height: 808px;
+  
    background-image: url(../images/banner/banner3.png);
    background-repeat: no-repeat;
+   width: 1600px;
+   height: 808px;
 
 
+}
+.banner{
+   margin: 0px;
 }
 .banner-title{
     color: #FFF;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    margin: 0px;
     width: 525px;
     
 }
 .banner-description{
     color: #FFF;
-    text-align:justify;
+    text-align:right;
     font-size: 16px;
     font-weight: 400;
-    width: 494px;
+    width: 525px;
+    margin-top: 24px;
+   
 }
 .banner-content{
      padding: 215px 230px 365px 845px;
      text-align: right;
+     /* position: relative; */
+}
+.button-class{
+    /* width: 525px; */
+    margin-top: 32px;
 }
 .btn-contact{
     color: #005FAC;
@@ -44,5 +58,136 @@ header{
     background: #FFF;
     padding: 25px 25px;
     border: 0;
+    /* position: absolute; */
+   
 
+}
+
+/* section related styles */
+.section-failure{
+    display: flex;
+    gap: 134px;
+    margin-bottom: 200px;
+    
+}
+.section-class1{
+    width: 288px;
+}
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-right: 450px; */
+}
+.section-class2{
+    width: 416px;
+}
+.section-description{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.section-check{
+    gap: 8px;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-text-content{
+    padding-top: 370px;
+}
+.section-profile-pic{
+    padding-top: 140px;
+    padding-left: 280px;
+}
+
+/* plan section styles */
+.plan{
+    text-align: center;
+    
+}
+.plan-section-title{
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-container{
+    display: flex;
+    gap: 80px;
+    padding-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 135px;
+    /* align-items: center; */
+    /* padding-left: 230px; */
+    /* text-align: center; */
+    /* align-items: center; */
+    
+}.plan-description{
+    color:  #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.plan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* lower banner styles */
+.banner-text{
+    width: 459px;
+    /* color: #FFF; */
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-section{
+    background-image: url("../images/watch.png");
+    /* background-image: url("../images/gradient1.png"); */
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    background-position: top;
+
+}
+
+/* .watch{
+    background-image: url("../images/gradient1.png");
+} */
+/* footer related styles */
+footer{
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+}
+.footer-section-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-section-description{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-no{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact input{
+    display: block;
+}
+.email{
+    width: 325px;
+    height: 64px;
+    
+
+}
+.footer-column{
+    display: flex;
 }
